@@ -1,7 +1,7 @@
 
 def getPos():
     x = int(input("Indtast x position: \n"))
-    y = int(input("Indtast x position: \n"))
+    y = int(input("Indtast y position: \n"))
     position = [x,y]
     return position
 
