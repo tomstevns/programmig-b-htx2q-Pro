@@ -1,28 +1,30 @@
-
 #
+
+def checkPos(txt):
+    if txt.isnumeric():
+        if int(txt) < 10:
+            return True
+        else:
+            return False
 
 
 def getPos():
-    try:
-        while True:
-            x = int(input("Indtast x position: \n"))
-            if x > 10:
-                print("Dit x kordinat er ikke gyldig.")
-            else:
-                break
+    while True:
+        x = input("Indtast x position: \n")
+        if checkPos(x):
+            break
+        else:
+            print("Dit x kordinat er ikke gyldig.")
 
-        while True:
-            y = int(input("Indtast y position: \n"))
-            if y > 10:
-                print("Dit y kordinat er ikke gyldig.")
-            else:
-                break
-    except:
-        print("Fejl. Input skal være tal.\n")
-        getPos()
+    while True:
+        y = input("Indtast y position: \n")
+        if checkPos(y):
+            break
+        else:
+            print("Dit y  kordinat er ikke gyldig.")
 
+    position = [int(x), int(y)]
 
-    position = [x,y]
     return position
 
 
