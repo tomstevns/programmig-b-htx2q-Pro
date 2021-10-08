@@ -7,6 +7,8 @@ def checkPos(txt):
             return True
         else:
             return False
+    else:
+        return False
 
 
 def getPos():
