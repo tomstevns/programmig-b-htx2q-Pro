@@ -1,8 +1,9 @@
 #
 
 def checkPos(txt):
-    if txt.isnumeric():
-        if int(txt) < 10:
+    if txt.isnumeric():    # Tjekker om værdien txt er et tal
+
+        if int(txt) < 10:  # Tjekker om at værdien er under 10
             return True
         else:
             return False
