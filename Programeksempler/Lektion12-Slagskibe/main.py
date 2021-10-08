@@ -1,14 +1,18 @@
 
-print("Velkommen til Sænkeslagskibe" )
+def getPos():
+    x = int(input("Indtast x position: \n"))
+    y = int(input("Indtast x position: \n"))
+    position = [x,y]
+    return position
+
+def main():
+    print("Velkommen til Sænkeslagskibe" )
 
 
-x = input("Hvilken x Koordinat vil du indtaste? \n")
-y = input("Hvilken y Koordinat vil du indtaste? \n")
+    x, y = getPos()
 
+    print(str(x),"Dette er din x Koordinat, " + str(y),"Dette er din y Koordinat \n Angrib dette punkt")
 
-print(x,"Dette er din x Koordinat, " + y,"Dette er din y Koordinat \n Angrib dette punkt")
+    print(x , y)
 
-print(x , y)
-
-
-
+main()
