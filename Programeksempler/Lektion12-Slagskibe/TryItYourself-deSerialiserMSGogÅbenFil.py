@@ -1,12 +1,22 @@
-"""Du skal nu gøre det modsatte af hvad der blev foretaget i den
-første fil python fil hvor vi serialiserede data
+"""Filerne finde du på GitHub som følger:
 
-Jeg har fjernet lidt af koden som du selv skal finde ud af
-svarene finde du i "deSerialiserMSGogÅbenFil.py"
+https://github.com/tomstevns/programmig-b-htx2q-Pro/tree/master/Programeksempler/Lektion13-Serialisering-Deserialisering
 
-De steder hvor der står *****************
-skal du selv tilrette python-koden
-"""
+
+
+Du skal nu gøre det modsatte af hvad der blev foretaget i den første fil python fil hvor vi serialiserede data
+
+Jeg har fjernet lidt af koden i "TryItYourselvdeSerialiserMSGogÅbenFil.py",
+
+som du selv skal finde ud af at løse.
+
+Svarene på opgaven finder du i "deSerialiserMSGogÅbenFil.py"
+
+De steder hvor der står ***************** skal du selv tilrette python-koden """
+
+
+
+
 
 #Definer JSON format
 import *****
