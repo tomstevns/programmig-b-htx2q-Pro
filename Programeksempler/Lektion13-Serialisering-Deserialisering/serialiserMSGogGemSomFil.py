@@ -2,7 +2,7 @@
 import json
 
 #definer indhold af besked
-besked = "pass"
+besked = {"alt_vel":True}
 
 #konverter "besked" til et JSON format
 jsonBesked = json.dumps(besked)
@@ -14,6 +14,7 @@ print("jsonBesked: ", jsonBesked)
 #Gem jsonBesked i en fil
 
 f = open("serializedMessageFile.txt", "a")
+
 f.write(jsonBesked)
 f.close()
 
