@@ -26,6 +26,7 @@ print("[Print the attributes of Object me]\n","me.name = ",me.name,"\n","me.age 
 #Print the attributes of inner-Object dog
 print("[Print the attribute of inner-Object dog]\n","me.dog.name = ", me.dog.name,"\n","me.dog.purebredName = ", me.dog.purebredName, "\n")
 
-f = open("serializedMessageFile.txt", "a")
+f = open("serializedMessageFile.txt", "w")
+f.flush()
 f.write(me.toJSON())
 f.close()
