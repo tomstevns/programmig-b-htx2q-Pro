@@ -14,7 +14,7 @@ print("jsonBesked: ", jsonBesked)
 #Gem jsonBesked i en fil
 
 f = open("serializedMessageFile.txt", "a")
-
+f.flush()
 f.write(jsonBesked)
 f.close()
 

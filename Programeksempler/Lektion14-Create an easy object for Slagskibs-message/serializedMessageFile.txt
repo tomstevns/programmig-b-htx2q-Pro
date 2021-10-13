@@ -1,0 +1,15 @@
+{
+    "age": 53,
+    "dog": {
+        "name": "Grace",
+        "purebredName": "Border Collie"
+    },
+    "name": "Frederik"
+}{
+    "age": 53,
+    "dog": {
+        "name": "Grace",
+        "purebredName": "Border Collie"
+    },
+    "name": "Frederik"
+}
