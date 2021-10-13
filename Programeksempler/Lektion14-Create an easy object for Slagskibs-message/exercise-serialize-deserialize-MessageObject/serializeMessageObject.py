@@ -1,3 +1,5 @@
+"""NB! Brug easyObjectExample.py som inspiration til at løse opgaven"""
+
 #Definer JSON format
 import json
 
@@ -5,6 +7,7 @@ import json
 
 #Opret(instansier) et object som hedder msg med atributterne:
 # spillerNavn,userID og password
+
 #Opret(instansier) ydermere et inner-object som hedder myMessage
 #med atributtet message
 

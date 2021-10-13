@@ -1,20 +1,25 @@
 """Du skal nu gøre det modsatte af hvad der blev foretaget i den
-første fil python fil hvor vi serialiserede data"""
+første fil python fil hvor vi serialiserede data
+
+NB! Brug easyObjectExample.py som inspitation til at løse opgaven
+"""
+
+
 
 #Definer JSON format
 import json
 
-#Åben fil so
+#Åben fil som du har modtaget fra din pair programming makker
 
 # Læs indhold af fil
 
 #Luk fil
 
-# print besked ud på JSON format
+# print indholdet ud af den fil du har modtaget på JSON format
 
 #deserialiser fil
 
-#Print den besked som din modspiller har sendt til dig
+# print indholdet  ud af samtlige attributter fra objektet
 
 
 
