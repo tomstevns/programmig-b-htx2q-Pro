@@ -5,8 +5,8 @@ import Afleveringsopgave2
 
 
 
-class TestTheExercisesForAfleveringsopgave1(unittest.TestCase):
 
+class TestTheExercisesForAfleveringsopgave1(unittest.TestCase):
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
 
@@ -23,7 +23,7 @@ class TestTheExercisesForAfleveringsopgave1(unittest.TestCase):
 
     def test_gangTalMed7(self):
         #tester om 7*10 = 70
-        self.assertEqual(Afleveringsopgave2.gangTalMed7(10),70)
+        self.assertEqual(Afleveringsopgave2.gangTalMed7(10),71)
         #Tester randværdier
         self.assertEqual(Afleveringsopgave2.gangTalMed7(1),7)
         self.assertEqual(Afleveringsopgave2.gangTalMed7(-1),-7)
@@ -31,7 +31,7 @@ class TestTheExercisesForAfleveringsopgave1(unittest.TestCase):
         self.assertEqual(Afleveringsopgave2.gangTalMed7(2.25),15.75)
         #Tester at strenge ikke kan håndteres
         self.assertNotEqual(Afleveringsopgave2.gangTalMed7("10"),70)
-        self.assertRaises().e
+
 
 
 
