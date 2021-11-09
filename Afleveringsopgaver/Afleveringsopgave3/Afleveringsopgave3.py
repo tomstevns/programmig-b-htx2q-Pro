@@ -30,10 +30,6 @@ Et eksempel på en funktion er vist nedenfor som returnerer værdien 10
 def visTal():
     return 10
 
-
-Du placerer dine løsninger der hvor det står angivet nedenfor.
-Måske er Opgave 1 allerede lavet!!!!!!
-
 """
 
 
@@ -72,7 +68,6 @@ test funktion med følgende kode:
 findAntalKromosomerIFil(opgave2.fasta)
 #teste funktion med et filnavn som ikke eksisterer
 findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
- 
 """
 
 """Opgave 3:
@@ -91,7 +86,6 @@ test funktion med følgende kode:
 findAntalKromosomerIFil(opgave2.fasta)
 #teste funktion med et filnavn som ikke eksisterer
 findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
- 
 """
 
 
@@ -106,7 +100,6 @@ test funktion med følgende kode:
 
 #teste funktion med filen opgave2.fasta
 findAntalStartCodonATGIFil(opgave2.fasta)
-
 """
 
 """Opgave 5:
@@ -124,8 +117,6 @@ findAntalStartCodonATGIFil("TGA",opgave2.fasta) #Start Codon
 findAntalStartCodonATGIFil("TAG",opgave2.fasta) #Stop  Codon
 findAntalStartCodonATGIFil("TAA",opgave2.fasta) #Stop  Codon
 findAntalStartCodonATGIFil("TGA",opgave2.fasta) #Stop  Codon
-
-
 """
 
 """Opgave 6:
@@ -142,6 +133,4 @@ test funktion med følgende kode:
 
 # test om nedenstående funktion returnerer 0 eller forskellig fra 0
 findforskelMellemStartogStopCodens(opgave2.fasta) 
-
-
 """
