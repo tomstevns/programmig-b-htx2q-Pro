@@ -66,6 +66,11 @@ beregnModulus(10,2.1)
     - print dette antal
     -returner antal 
     
+Du kan finde inspiration til at løse opgaven i den vedlagte fil
+naivePatternSearchingFromFastqFile.py. Både hvad angår det at håndtere
+en fil med at åbne læse og lukke den, såvel som at søge efter karakterer, som
+i dette tilfælde er karakteren >
+
 test funktion med følgende kode:
 
 #teste funktion med filen opgave2.fasta
@@ -73,7 +78,25 @@ findAntalKromosomerIFil(opgave2.fasta)
 #teste funktion med et filnavn som ikke eksisterer
 findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
  
-
-
 """
 
+"""Opgave 3:
+- tilføjkode til funktionen som heddder findAntalKromosomerIFil(filnavn) - dvs opgave2 
+- Funktionen skal kunne håndterer en situation hvor noget går galt nåt man låbner
+læser eller lukker filen 
+
+
+    
+Du kan finde inspiration til at løse opgaven i den vedlagte fil
+naivePatternSearchingFromFastqFile.py. Både hvad angår det at håndtere
+en fil med at åbne læse og lukke den, såvel som at søge efter karakterer, som
+i dette tilfælde er karakteren >
+
+test funktion med følgende kode:
+
+#teste funktion med filen opgave2.fasta
+findAntalKromosomerIFil(opgave2.fasta)
+#teste funktion med et filnavn som ikke eksisterer
+findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
+ 
+"""
