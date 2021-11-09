@@ -100,3 +100,55 @@ findAntalKromosomerIFil(opgave2.fasta)
 findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
  
 """
+
+
+"""Opgave 4:
+- lav en funktion som heddder findAntalStartCodonATGIFil(filnavn) 
+- funktionen skal gøre følgende
+    - finde antallet af de 3 karakterer "ATG" > i filen
+    - print dette antallet
+    -returner antal 
+
+test funktion med følgende kode:
+
+#teste funktion med filen opgave2.fasta
+findAntalStartCodonATGIFil(opgave2.fasta)
+
+"""
+
+"""Opgave 5:
+- lav en funktion som heddder findAntalCodonIFil(inputCodon,filnavn) 
+- funktionen skal gøre følgende
+    - finde antallet af de 3 karakterer som er beskrevet i filen
+    - print dette antallet
+    -returner antal 
+
+test funktion med følgende kode:
+
+#teste funktion med filen opgave2.fasta
+
+findAntalStartCodonATGIFil("TGA",opgave2.fasta) #Start Codon
+findAntalStartCodonATGIFil("TAG",opgave2.fasta) #Stop  Codon
+findAntalStartCodonATGIFil("TAA",opgave2.fasta) #Stop  Codon
+findAntalStartCodonATGIFil("TGA",opgave2.fasta) #Stop  Codon
+
+
+"""
+
+"""Opgave 6:
+- lav en funktion som heddder findforskelMellemStartogStopCodens(filnavn) 
+- funktionen skal gøre følgende
+    StartCodeons: Finde antallet af start codons(ATG) og printe værdien
+    StopCodens: Finde det samlede antal af stop codons(TAG+TGA+TAA) og printe værdien
+    Finde differencen mellem antallet af start og stop codons
+    -returner differencen
+
+test funktion med følgende kode:
+
+#teste funktion med filen opgave2.fasta
+
+# test om nedenstående funktion returnerer 0 eller forskellig fra 0
+findforskelMellemStartogStopCodens(opgave2.fasta) 
+
+
+"""
