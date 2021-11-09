@@ -2,12 +2,12 @@
 I denne afleveringsopgave3 skal du løse 6 opaver udførligt forklaret nedenfor.
 Opgaverne stilles med udgangspunkt i de øvelser vi har gennemgået i lektionerne indtil nu
 
-Opgavernes sværhedsgrad  stiger løbende og skal derfor prmært løses med den "Opgave 1" først,
+Opgavernes sværhedsgrad  stiger løbende og skal derfor primært løses med den "Opgave 1" først,
 men det er for såvidt op til dig selv, hvilken rækkefølge du vil løse dem i.
 
 Jeg har vedlagt en python fil "Afleveringsopgave3.py" hvor opgaverne skal programmeres ind i.
 
-Du skal gå igang med at løse opgaverne i den kommende uge41's lektioner,
+Du skal gå igang med at løse opgaverne i den kommende uge45+46's lektioner,
 hvor vi allesammen skal hjælpe hinanden med at nå så godt i mål som muligt :o)
 
 Held og lykke !
@@ -46,16 +46,11 @@ Måske er Opgave 1 allerede lavet!!!!!!
     
 unit-test funktion med følgende kode:
 
-
 beregnModulus(11,2)
 beregnModulus(10,2)
 beregnModulus(11.5,2)
 beregnModulus(10,2.0)
 beregnModulus(10,2.1)
-
-
-
-
 """
 
 
@@ -81,11 +76,9 @@ findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
 """
 
 """Opgave 3:
-- tilføjkode til funktionen som heddder findAntalKromosomerIFil(filnavn) - dvs opgave2 
-- Funktionen skal kunne håndterer en situation hvor noget går galt nåt man låbner
+- tilføj kode til funktionen som heddder findAntalKromosomerIFil(filnavn) - dvs opgave2 
+- Funktionen skal kunne håndterer en situation hvor noget går galt nåt man åbner
 læser eller lukker filen 
-
-
     
 Du kan finde inspiration til at løse opgaven i den vedlagte fil
 naivePatternSearchingFromFastqFile.py. Både hvad angår det at håndtere
@@ -103,9 +96,9 @@ findAntalKromosomerIFil(etFilnavnSomIkkeEksisterer)
 
 
 """Opgave 4:
-- lav en funktion som heddder findAntalStartCodonATGIFil(filnavn) 
+- lav en funktion som hedder findAntalStartCodonATGIFil(filnavn) 
 - funktionen skal gøre følgende
-    - finde antallet af de 3 karakterer "ATG" > i filen
+    - finde antallet af de 3 karakterer "ATG"  i filen
     - print dette antallet
     -returner antal 
 
@@ -119,7 +112,7 @@ findAntalStartCodonATGIFil(opgave2.fasta)
 """Opgave 5:
 - lav en funktion som heddder findAntalCodonIFil(inputCodon,filnavn) 
 - funktionen skal gøre følgende
-    - finde antallet af de 3 karakterer som er beskrevet i filen
+    - finde antallet af de 3 karakterer som er beskrevet i inputCodon  
     - print dette antallet
     -returner antal 
 
@@ -138,8 +131,8 @@ findAntalStartCodonATGIFil("TGA",opgave2.fasta) #Stop  Codon
 """Opgave 6:
 - lav en funktion som heddder findforskelMellemStartogStopCodens(filnavn) 
 - funktionen skal gøre følgende
-    StartCodeons: Finde antallet af start codons(ATG) og printe værdien
-    StopCodens: Finde det samlede antal af stop codons(TAG+TGA+TAA) og printe værdien
+    StartCodons: Finde antallet af start codons(ATG) og printe værdien
+    StopCodons: Finde det samlede antal af stop codons(TAG+TGA+TAA) og printe værdien
     Finde differencen mellem antallet af start og stop codons
     -returner differencen
 
