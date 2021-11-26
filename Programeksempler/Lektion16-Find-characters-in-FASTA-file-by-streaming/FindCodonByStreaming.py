@@ -13,7 +13,6 @@ def onlyATGC(file):
     else:
         return False
 
-
 def antalCodonIString(codon, string):
     antal = 0
     if type(codon) == list:
@@ -30,3 +29,4 @@ antalCodonIString(codon, onlyATGC("opgave2.fasta"))
 # Flere codon
 codon = ["TGA", "TAG", "TAA"]
 antalCodonIString(codon, onlyATGC("opgave2.fasta"))
+
