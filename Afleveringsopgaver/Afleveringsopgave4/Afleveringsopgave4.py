@@ -15,10 +15,10 @@ print("længden af strengen ", testStreng," er ",findLængdeAfStreng(testStreng)
 # 5.158 gang skrives der "farvel med dig"
 
 #Definer og åben en fil
-f = open("fil1", "r")
+f = open("fil1", "w")
 
 #Lav et loop 13153 gange som skriver
-for i in range(13)
+for i in range(13):
     #IF I er 5158 så
     print("I skal nu være 5158")
     #Skrive i filen - "Farvel med dig"
@@ -39,10 +39,18 @@ for i in range(13)
 
 
 #Opgave4
-#Lav et program som kan udskrive et alfabet ved hjælp af ASCII værdier,
-# som er tæller i et "While Loop"
+#Lav et program som kan udskrive et alfabet ud fra A->Z, ved hjælp af ASCII decimal værdier,
+# lidt om ASCII konverteringer her  "fra ASCII tal til en karakter i alfabetet"
+# https://stackoverflow.com/questions/4387138/pythonascii-character-decimal-representation-conversion
 
+# som er tæller i et "While Loop" til ret så du udskriver karakterer fra A->Z
 
-
-
+for ascii in range(150):
+    #hvis ascii > x , dvs x+1 som svarer til karakteren YYY
+    #du skl begynd at printe et alfabet ud fra A->Z
+    #START med at lave en IF sætning
+    if ascii > 65:
+        print("ascii decimal tal ", ascii, " til: ", "Indsæt kode her som koverterer Decimal/Karakterer")
+    if ascii ==110:
+        break
 
