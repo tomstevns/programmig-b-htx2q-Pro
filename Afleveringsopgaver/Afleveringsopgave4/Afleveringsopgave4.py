@@ -54,3 +54,30 @@ for ascii in range(150):
     if ascii ==110:
         break
 
+"""
+Opgave5: 
+Opret en liste ved at vælge et ulige indekselement fra den første liste 
+og lige indekselementer fra den anden.
+Givet to lister, l1 og l2, 
+skriv et program til at oprette en tredje liste l3,
+ved at vælge et ulige indekselement fra listen l1 og lige indekselementer fra listen l2.
+
+Givet:
+
+l1 = [3, 6, 9, 12, 15, 18, 21]
+l2 = [4, 8, 12, 16, 20, 24, 28]
+
+Forventet løsning:
+Element på ulige indekspositioner fra liste et
+[6, 12, 18]
+Element ved lige indekspositioner fra liste to
+[4, 12, 20, 28]
+
+Udskrivning Endelig tredje liste
+[6, 12, 18, 4, 12, 20, 28]
+
+
+
+
+
+"""
