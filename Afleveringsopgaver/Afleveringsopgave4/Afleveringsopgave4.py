@@ -57,6 +57,7 @@ while True:
     #IF første karakter i txt er F
     if txt[0].upper() == "F":
         #Så print linie fundet
+        print("Linien er fundet")
         printLinieNummer()
         #Luk fil1
         f.close()
