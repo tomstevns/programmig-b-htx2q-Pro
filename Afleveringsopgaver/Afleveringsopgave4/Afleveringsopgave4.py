@@ -37,6 +37,37 @@ for i in range(13):
 #Lav et program åbner en fil1,
 #Finder rækken hvor der står "farvel med dig" og returnerer række nummeret på rækken
 
+#definer txt og linienummer
+txt = ""
+linienummer = 0
+#Åben fil1 for læsning
+f = open("fil1", "r")
+
+
+def printLinieNummer():
+    print("Linie nummer er ", linienummer)
+
+
+#while True
+while True:
+    #læs en linie fra fil1 og placer den i txt
+    #tæl linienummer en op
+    txt = f.readline().strip()
+    linienummer+=1
+    #IF første karakter i txt er F
+    if txt[0].upper() == "F":
+        #Så print linie fundet
+        printLinieNummer()
+        #Luk fil1
+        f.close()
+        #Break
+        break
+    #Else
+    else:
+        printLinieNummer()
+
+
+
 
 #Opgave4
 #Lav et program som kan udskrive et alfabet ud fra A->Z, ved hjælp af ASCII decimal værdier,
@@ -49,9 +80,9 @@ for ascii in range(150):
     #hvis ascii > x , dvs x+1 som svarer til karakteren YYY
     #du skl begynd at printe et alfabet ud fra A->Z
     #START med at lave en IF sætning
-    if ascii > 65:
-        print("ascii decimal tal ", ascii, " til: ", "Indsæt kode her som koverterer Decimal/Karakterer")
-    if ascii ==110:
+    if ascii > 64:
+        print("ascii decimal tal ", ascii, " til: ", chr(ascii))
+    if ascii == 90:
         break
 
 """
