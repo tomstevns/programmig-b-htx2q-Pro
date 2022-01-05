@@ -23,8 +23,8 @@ ax.yaxis.set_ticks_position('left')
 y1 = 0.333*y
 y2 = 0.333*31400*y
 # plot the functions
-plt.plot(x,y1, 'b', label='Effekt(Watt) fra 1 kvadrats mølle')
-plt.plot(x,y2, 'g', label='Effekt(Watt) fra 100 metersvinge mølle')
+plt.plot(x,y1, 'b', label='Effekt 1 kvadratmetermølle')
+plt.plot(x,y2, 'g', label='Effekt 31400 kvadratmetermølle')
 
 
 
