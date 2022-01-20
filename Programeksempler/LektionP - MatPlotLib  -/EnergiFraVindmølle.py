@@ -25,6 +25,7 @@ y1 = 0.333*y
 siemens = 0.333*36643*y
 vestas  = 0.333*41909*y
 # plot the functions
+
 plt.plot(x,y1, 'b', label='Effekt 1 kvadratmetermølle')
 plt.plot(x,siemens, 'g', label='Effekt 108 meter vinger')
 plt.plot(x,vestas, 'r', label='Effekt 115,5 meter vinger')

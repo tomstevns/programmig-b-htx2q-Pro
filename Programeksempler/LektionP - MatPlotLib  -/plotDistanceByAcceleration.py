@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+#plotDistanceByAcceleration.py
 # 100 linearly spaced numbers
 x = np.linspace(0,10,100)
 
