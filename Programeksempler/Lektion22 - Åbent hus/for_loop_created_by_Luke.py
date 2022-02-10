@@ -2,7 +2,7 @@ for i in range(5):    # For each number i in range 0-4. range(5) function return
     print(i)          # This line is executed 5 times. First time i equals 0, then 1, ...
 print("loop til 5 afslut")
 
-primes = [2, 3, 5, 7]   # Create new list
+primes = [2, 3, 5, 7,11]   # Create new list
 
 for prime in primes:
     print(prime," er et primtal")
